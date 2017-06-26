@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_61599_needit.sumTwoNums</api_name>
+        <client_callable>false</client_callable>
+        <description>This is on demand/classes Script Include is passes two integers. The integers are added together and sum logged.</description>
+        <name>sumTwoNums</name>
+        <script><![CDATA[function sumTwoNums(int1,int2){
+
+var mySum = int1 + int2;
+gs.addInfoMessage("The sum of " + int1 + " + " + int2 + " = " + sum);
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-26 06:28:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f5498c52db6332007e8e5421cf961938</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sumTwoNums</sys_name>
+        <sys_package display_value="NeedIt" source="x_61599_needit">4c2f003ddb5332007e8e5421cf961975</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">4c2f003ddb5332007e8e5421cf961975</sys_scope>
+        <sys_update_name>sys_script_include_f5498c52db6332007e8e5421cf961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-26 06:31:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
